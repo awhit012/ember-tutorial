@@ -5,6 +5,7 @@ gem 'ember-source'
 gem 'emblem-rails'
 
 gem 'ffaker'
+gem 'puma'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
