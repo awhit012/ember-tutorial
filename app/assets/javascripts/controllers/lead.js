@@ -19,3 +19,10 @@ App.LeadController = Ember.ObjectController.extend({
     }
   }
 })
+
+App.Lead.reopenClass({
+
+  valid: function(fields) {
+    return fields.firstName && fields.lastName
+  }
+})
